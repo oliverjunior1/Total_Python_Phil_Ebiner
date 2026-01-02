@@ -11,13 +11,7 @@ letters_list = letters.split(" ")
 
 # 1 - how many times appears each of those letters
 # TODO: pass text and letters to lowercase
-for x in letters_list:
-    if x in text:
-        list_counted_out.append(x)
 
-    else:
-        pass
-print(list_counted_out)
 
 # 2 - how many words in total
 
