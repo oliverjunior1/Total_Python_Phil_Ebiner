@@ -9,6 +9,7 @@ text = "This sentence is short"
 my_bool = ('sentence' in text) and ('python' in text)
 print(my_bool)
 
+
 # double negation is true
 my_bool = not 'a' != 'a'
 print(my_bool)
