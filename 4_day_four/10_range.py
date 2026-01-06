@@ -14,5 +14,5 @@
 sum_squares = 0
 
 for x in range(1,16):
-    sum_squares += x**0.5
+    sum_squares += x**2
 print(sum_squares)
