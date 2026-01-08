@@ -6,7 +6,7 @@
 name = "Python"
 indices_list = []
 
-for element, index in enumerate(name):
-    indices_list.append(element, index)
+for x in enumerate(name):
+    indices_list.append(x)
 
 print(indices_list)
