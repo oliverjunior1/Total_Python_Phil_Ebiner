@@ -1,7 +1,7 @@
 # You will create a game where the person will have four lives to try and guess a number from 1 to 100:
 import random
 
-lives = 4
+lives = 8
 number_to_guess = random.randint(1,100)
 
 while lives>=0:
