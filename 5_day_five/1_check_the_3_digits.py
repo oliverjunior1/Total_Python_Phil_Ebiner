@@ -1,5 +1,4 @@
-def check_3_itens(number):
-    return number in range(100,1000)
+def check_3_numbers(numbers):
+    return numbers in range(100,1000)
 
-result = check_3_itens(658)
-print(result)
+print(check_3_numbers(100))
