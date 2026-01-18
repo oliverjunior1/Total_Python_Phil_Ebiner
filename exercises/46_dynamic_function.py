@@ -2,8 +2,13 @@
 # one of the values is negative. Create a list named numbers with positive and negative values.
 #
 # Don't call the function, you just need to define it.
-def all_positives(numbers):
-    return numbers in range(-10000,0)
+def all_positives(lst):
+    """Return True if all values in the list are positive,
+    otherwise return False."""
+    for value in lst:
+        if value < 0:
+            return False
+    return True
 
-numbers = [10,15,20,18]
-print(all_positives(numbers))
+# Example list with positive and negative values
+numbers = [3, -1, 7, 0, 12, -5]
