@@ -1,11 +1,18 @@
 # Create a function (throw_dice) that "throws" two random dice and
 # returns its results (the function MUST RETURN TWO VALUES AS A RESULT,
 # both of which must be between 1 and 6, randomly).
-def throw_dice():
-    th
+import random
 
-# Pass the result of these two dice to a function called roll_result (meaning that this second function MUST RECEIVE TWO ARGUMENTS) and return -without printing it- a certain message according to the what the sum of these values results:
-#
+
+def throw_dice():
+    dice = random.randint(1,6)
+    return dice
+
+# Pass the result of these two dice to a function called roll_result (meaning that this second function MUST RECEIVE
+# TWO ARGUMENTS) and return -without printing it- a certain message according to the what the sum of these values
+# results:
+
+
 # If the sum is less than or equal to 6:
 #
 # "The sum of your dice is {sum_dice}. Unfortunate"
