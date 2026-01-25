@@ -16,8 +16,8 @@
 # hair_color: black
 
 def describe_person(name, **kwargs):
-    print(f"Characteristcs of {name}")
-    for x, y in kwargs.items():
-        print(f"{x}:{y}")
+    print(f"Characteristics of {name}")
+    for key, value in kwargs.items():
+        print(f"{key}:{value}")
 
-describe_person()
+describe_person('Joaquim', hair_color='brown', eye_color='green')
