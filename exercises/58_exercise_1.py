@@ -23,3 +23,5 @@ num2 = int(input("Put the number two: "))
 num3 = int(input("Put the number three: "))
 
 print(return_distincts(num1, num2, num3))
+
+
