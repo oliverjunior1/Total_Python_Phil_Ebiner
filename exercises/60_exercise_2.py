@@ -7,7 +7,10 @@ def phrase(word):
     list_letters = []
     for x in word:
         list_letters.append(x)
-    
+    set_letters = sorted(set(list_letters))
+    return set_letters
+
+print(phrase('entertaining'))
 
 
 
