@@ -6,10 +6,10 @@
 type_a_phrase = input("Type any phrase: ")
 list_phrase = []
 
-for x in type_a_phrase:
+for x in type_a_phrase.lower():
     list_phrase.append(x)
 
-print(list_phrase)
+print(sorted(list_phrase))
 
 
 
