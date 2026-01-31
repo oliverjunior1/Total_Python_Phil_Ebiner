@@ -11,6 +11,7 @@ def phrase(word):
     return set_letters
 
 print(phrase('entertaining'))
+print(phrase('pineapple'))
 
 
 
