@@ -18,3 +18,8 @@
 def has_double_zero(*args):
     return any(a == 0 and b == 0 for a, b in zip(args, args[1:]))
 
+print(has_double_zero(5,6,1,0,0,9,3,5))
+print(has_double_zero(6,0,5,1,0,3,0,1))
+
+
+
